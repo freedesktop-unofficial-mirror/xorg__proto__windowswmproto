@@ -1,4 +1,7 @@
-/* WindowsWM extension is based on AppleWM extension*/
+/*
+ * WindowsWM extension is based on AppleWM extension
+ * Authors:	Kensuke Matsuzaki
+ */
 /**************************************************************************
 
 Copyright (c) 2002 Apple Computer, Inc.

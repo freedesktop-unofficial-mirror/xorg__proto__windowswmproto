@@ -1,4 +1,7 @@
-/* WindowsWM extension is based on AppleWM extension*/
+/*
+ * WindowsWM extension is based on AppleWM extension
+ * Authors:	Kensuke Matsuzaki
+ */
 /**************************************************************************
 
 Copyright (c) 2002 Apple Computer, Inc.
@@ -130,9 +133,10 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #define WindowsWMFrameStyleExTransparent	32
 #define WindowsWMFrameStyleExWindowEdge		256
 
-#define WINDOWSWM_RAISE_ON_CLICK "_WINDOWSWM_RAISE_ON_CLICK"
-#define WINDOWSWM_MOUSE_ACTIVATE "_WINDOWSWM_MOUSE_ACTIVATE"
-#define WINDOWSWM_CLIENT_WINDOW "_WINDOWSWM_CLIENT_WINDOW"
+#define WINDOWSWM_RAISE_ON_CLICK	"_WINDOWSWM_RAISE_ON_CLICK"
+#define WINDOWSWM_MOUSE_ACTIVATE	"_WINDOWSWM_MOUSE_ACTIVATE"
+#define WINDOWSWM_CLIENT_WINDOW		"_WINDOWSWM_CLIENT_WINDOW"
+#define WINDOWSWM_NATIVE_HWND		"_WINDOWSWM_NATIVE_HWND"
 
 #ifndef _WINDOWSWM_SERVER_
 
