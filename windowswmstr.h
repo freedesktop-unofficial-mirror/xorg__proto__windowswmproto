@@ -1,7 +1,4 @@
-/*
- * WindowsWM extension is based on AppleWM extension
- * Authors:	Kensuke Matsuzaki
- */
+/* WindowsWM extension is based on AppleWM extension*/
 /**************************************************************************
 
 Copyright (c) 2002 Apple Computer, Inc.
@@ -96,8 +93,8 @@ typedef struct _WindowsWMNotify {
 	Time	time B32;	/* time of change */
 	CARD16	pad1 B16;
 	CARD32	arg B32;
-	INT16	x B16;
-	INT16	y B16;
+	CARD16	x B16;
+	CARD16	y B16;
 	CARD16	w B16;
 	CARD16	h B16;
 } xWindowsWMNotifyEvent;
@@ -117,8 +114,8 @@ typedef struct _WindowsWMFrameGetRect {
     CARD32	frame_style B32;
     CARD32	frame_style_ex B32;
     CARD16	frame_rect B16;
-    INT16	ix B16;
-    INT16	iy B16;
+    CARD16	ix B16;
+    CARD16	iy B16;
     CARD16	iw B16;
     CARD16	ih B16;
     CARD16	pad1 B16;
@@ -130,8 +127,8 @@ typedef struct {
     BOOL	pad1;
     CARD16	sequenceNumber B16;
     CARD32	length B32;
-    INT16	x B16;
-    INT16	y B16;
+    CARD16	x B16;
+    CARD16	y B16;
     CARD16	w B16;
     CARD16	h B16;
     CARD32	pad3 B32;
@@ -149,8 +146,8 @@ typedef struct _WindowsWMFrameDraw {
     CARD32	window B32;
     CARD32	frame_style B32;
     CARD32	frame_style_ex B32;
-    INT16	ix B16;
-    INT16	iy B16;
+    CARD16	ix B16;
+    CARD16	iy B16;
     CARD16	iw B16;
     CARD16	ih B16;
 } xWindowsWMFrameDrawReq;
