@@ -171,8 +171,8 @@ Bool XWindowsWMSelectInput (Display *dpy, unsigned long mask);
 Bool XWindowsWMSetFrontProcess (Display *dpy);
 
 Bool XWindowsWMFrameGetRect (Display *dpy,
-			     unsigned int frame_style, 
-			     unsigned int frame_style_ex, 
+			     unsigned int frame_style,
+			     unsigned int frame_style_ex,
 			     unsigned int frame_rect,
 			     short inner_x, short inner_y,
 			     short inner_w, short inner_h,
